@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Sullivan</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <div id="nav-wrapper"></div>
+    <!-- Hero Section -->
+    <div id="hero" class="section">
+        <div id="hero-txt">
+            <h1 class="title"><span class="maroon-txt">Daniel</span>Sullivan</h1>
+            <h3><span class="maroon-bg">web developer</span> <span id="maroon-bar"></span></h3>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about-section" class="section">
+        <div id="about-info">
+            <p>After a wonderful 21 year career as a musician in the United States Marine Corps, I moved back to my
+                hometown in the beautiful state of Montana and began my programming and coding journey. I have a passion
+                for simple, but stunning design.</p>
+            <div class="buttons">
+                <a type="button" id="resume-btn">My Resume</a>
+                <a href="#contact-section" type="button" id="contact-btn">Contact Me</a>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <div id="contact-section" class="section">
+        <h1>Send me a message</h1>
+        <form action="">
+            <div class="row">
+                <div class="input-group">
+                    <input type="text" id="first-name" required>
+                    <label for="first-name"><i class="bi bi-person-fill"></i> First Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="last-name" required>
+                    <label for="last-name"><i class="bi bi-person-fill"></i> Last Name</label>
+                </div>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email"><i class="bi bi-envelope"></i> Email</label>
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="8" required></textarea>
+                <label for="message"><i class="bi bi-card-text"></i> Your Message</label>
+            </div>
+            <button type="submit" id="submit-btn">Submit <i class="bi bi-send"></i></button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
