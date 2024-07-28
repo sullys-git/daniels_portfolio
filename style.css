@@ -95,6 +95,17 @@ body {
     letter-spacing: 2px;
  }
 
+ #portfolio-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 2px;
+ }
+
  #about-info {
     width: 60%;
     margin: 0 auto;
@@ -215,5 +226,60 @@ body {
     flex-basis: 46%;
 }
 
+/* Portfolio Section */
+.project-card {
+    width: 300px;
+    border: 5px solid #003049;
+    border-radius: 15px;
+    padding: 5px;
+}
 
+.project-title {
+    padding: 10px;
+}
 
+.project-img {
+    height: 300px;
+    width: 300px;
+}
+
+.project-info {
+    padding: 10px;
+}
+
+#pwgenerator-img-display {
+    background: url("pwgenerator-img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#calculator-img-display {
+    background: url("calculator-project-img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#pwgenerator-img-display img {
+    transform: rotate(-30deg);
+}
+
+.project-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-link a {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #FDF0D5;
+    text-decoration: none;
+}
