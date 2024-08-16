@@ -78,7 +78,8 @@ nav a:focus {
 }
 
 @media (min-width: 800px) {
-    #navigation {
+    #navigation,
+    nav {
         display: block;
     }
 
@@ -86,8 +87,13 @@ nav a:focus {
         display: none;
     }
 
-
+    .nav-list {
+        display: flex;
+        gap: 2em;
+    }
 }
+
+
 /* These should be done with an HTML tag */
 .container {
     min-height: 100vh;
@@ -107,7 +113,7 @@ nav a:focus {
 
 .main-image {
     position: absolute;
-    top: -1.25em;
+    top: 0;
     bottom: 0;
     right: 0;
     left:0;
@@ -116,6 +122,8 @@ nav a:focus {
 
 #hero h1,
 #contact-section h1 {
+    padding: 0;
+    line-height: .75em;
     font-size: 3rem;
     letter-spacing: 5px;
     /* letter-spacing: 10px; */
@@ -124,8 +132,9 @@ nav a:focus {
 }
 
 #hero h3 {
+
     margin-top: 0px;
-    letter-spacing: 4px;
+    letter-spacing: .15em;
 }
 
 .maroon-txt {
@@ -133,7 +142,10 @@ nav a:focus {
 }
 
 #maroon-bar {
+    display: inline-block;
     background-color: #780000;
+    height: 1em;
+    width: 11.1em;
     /* padding: 3px 150px; */
 }
 
