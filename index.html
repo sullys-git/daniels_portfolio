@@ -11,83 +11,96 @@
     
 </head>
 <body>
+
+    <!-- Navi -->
     <div id="nav-wrapper"></div>
+
+
     <!-- Hero Section -->
-    <div id="hero" class="section">
-        <div id="hero-txt">
-            <h1 class="title"><span class="maroon-txt">Daniel</span>Sullivan</h1>
-            <h3><span class="maroon-bg">web developer</span> <span id="maroon-bar"></span></h3>
-        </div>
-    </div>
+     <section>
+         <div id="hero" class="section container">
+             <div id="hero-txt">
+                 <h1 class="title"><span class="maroon-txt">Daniel</span>Sullivan</h1>
+                 <h3><span class="maroon-bg">web developer</span> <span id="maroon-bar"></span></h3>
+             </div>
+         </div>
+     </section>
+
     <!-- About Section -->
-    <div id="about-section" class="section">
-        <div id="about-info">
-            <p>After a wonderful 21 year career as a musician in the United States Marine Corps, I moved back to my
-                hometown in the beautiful state of Montana. While working in the development department of a statewide non-profit organization, I was tasked with maintaining the organizations database and website. I was so facinated that I began my programming and coding journey by taking computer science classes at the University of Montana. The pandemic and a move to my hometown halted my studies, but I piced back up at Montana State University in Billings Montana. </p>
-            <p>I have learned SQL, Python, HTML, CSS, Java Script as well as libraries and framworks such as Bootstrap, JQuery, and Flask.</p>
-                <p>I have developed a passion for developing simple, but stunning websites.</p>
-            <div class="buttons">
-                <a type="button" id="resume-btn">My Resume</a>
-                <a href="#contact-section" type="button" id="contact-btn">Contact Me</a>
-            </div>
-        </div>
-    </div>
+     <section>
+         <div id="about-section" class="section container">
+             <div id="about-info">
+                 <p>After a wonderful 21 year career as a musician in the United States Marine Corps, I moved back to my
+                     hometown in the beautiful state of Montana. While working in the development department of a statewide non-profit organization, I was tasked with maintaining the organizations database and website. I was so facinated that I began my programming and coding journey by taking computer science classes at the University of Montana. The pandemic and a move to my hometown halted my studies, but I piced back up at Montana State University in Billings Montana. </p>
+                 <p>I have learned SQL, Python, HTML, CSS, Java Script as well as libraries and framworks such as Bootstrap, JQuery, and Flask.</p>
+                     <p>I have developed a passion for developing simple, but stunning websites.</p>
+                 <div class="buttons">
+                     <a type="button" id="resume-btn">My Resume</a>
+                     <a href="#contact-section" type="button" id="contact-btn">Contact Me</a>
+                 </div>
+             </div>
+         </div>
+     </section>
     <!-- Portfolio Section -->
-     <div id="portfolio-section" class="section">
-        <div class="project-card">
-            <div class="project-title">
-                <p>Password Generator</p>
+     <section>
+         <div id="portfolio-section" class="section container">
+            <div class="project-card">
+                <div class="project-title">
+                    <p>Password Generator</p>
+                </div>
+                <div class="project-img" id="pwgenerator-img-display">
+                    
+                </div>
+                <div class="project-info">
+                    <p>This was a solo project on Scrimba that I completed.</p>
+    
+                </div>
+                <div class="project-link">
+                    <a href="https://sullyspwgenerator.netlify.app/">See Full Project</a>
+                </div>
             </div>
-            <div class="project-img" id="pwgenerator-img-display">
-                
+    
+            <div class="project-card">
+                <div class="project-title">
+                    <p>HTML | CSS | JS calculator</p>
+                </div>
+                <div class="project-img" id="calculator-img-display">
+                    <a href="https://sullyspwgenerator.netlify.app/">Go To Project</a>
+                </div>
+                <div class="project-info">
+                    <p>A working calculator made with HTML, CSS, JS.</p>
+                </div>
             </div>
-            <div class="project-info">
-                <p>This was a solo project on Scrimba that I completed.</p>
-
-            </div>
-            <div class="project-link">
-                <a href="https://sullyspwgenerator.netlify.app/">See Full Project</a>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <div class="project-title">
-                <p>HTML | CSS | JS calculator</p>
-            </div>
-            <div class="project-img" id="calculator-img-display">
-                <a href="https://sullyspwgenerator.netlify.app/">Go To Project</a>
-            </div>
-            <div class="project-info">
-                <p>A working calculator made with HTML, CSS, JS.</p>
-            </div>
-        </div>
-
-     </div>
+    
+         </div>
+     </section>
     <!-- Contact Section -->
-    <div id="contact-section" class="section">
-        <h1>Send me a message</h1>
-        <form action="">
-            <div class="row">
-                <div class="input-group">
-                    <input type="text" id="first-name" required>
-                    <label for="first-name"><i class="bi bi-person-fill"></i> First Name</label>
-                </div>
-                <div class="input-group">
-                    <input type="text" id="last-name" required>
-                    <label for="last-name"><i class="bi bi-person-fill"></i> Last Name</label>
-                </div>
-            </div>
-            <div class="input-group">
-                <input type="email" id="email" required>
-                <label for="email"><i class="bi bi-envelope"></i> Email</label>
-            </div>
-            <div class="input-group">
-                <textarea id="message" rows="8" required></textarea>
-                <label for="message"><i class="bi bi-card-text"></i> Your Message</label>
-            </div>
-            <button type="submit" id="submit-btn">Submit <i class="bi bi-send"></i></button>
-        </form>
-    </div>
+     <section>
+         <div id="contact-section" class="section container">
+             <h1>Send me a message</h1>
+             <form action="">
+                 <div class="row">
+                     <div class="input-group">
+                         <input type="text" id="first-name" required>
+                         <label for="first-name"><i class="bi bi-person-fill"></i> First Name</label>
+                     </div>
+                     <div class="input-group">
+                         <input type="text" id="last-name" required>
+                         <label for="last-name"><i class="bi bi-person-fill"></i> Last Name</label>
+                     </div>
+                 </div>
+                 <div class="input-group">
+                     <input type="email" id="email" required>
+                     <label for="email"><i class="bi bi-envelope"></i> Email</label>
+                 </div>
+                 <div class="input-group">
+                     <textarea id="message" rows="8" required></textarea>
+                     <label for="message"><i class="bi bi-card-text"></i> Your Message</label>
+                 </div>
+                 <button type="submit" id="submit-btn">Submit <i class="bi bi-send"></i></button>
+             </form>
+         </div>
+     </section>
     <script src="scripts.js"></script>
 </body>
 
